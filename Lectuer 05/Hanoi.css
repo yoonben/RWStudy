@@ -1,0 +1,36 @@
+
+#total {
+ width: 90%;
+ margin: 10px auto;
+}
+
+.ad {
+display: flex;
+justify-content: center;
+
+ }
+
+#box1 {
+   border: 1px solid red;
+   float: left;
+   width:30%;
+   height: 650px;
+   box-sizing: border-box;
+}
+
+#box2 {
+   border: 1px solid green;
+   float: left;
+   margin-left: 5%;
+   width:30%;
+   height: 650px;
+   box-sizing: border-box;
+}
+
+#box3 {
+   border: 1px solid blue;
+   float: right;
+   width:30%;
+   height: 650px;
+   box-sizing: border-box;
+}
