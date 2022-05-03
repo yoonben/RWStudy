@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>하노이의 탑</title>
     <link rel="stylesheet" type="text/css" href = "Hanoi.css">
     <script src="Hanoi.js"></script>
 </head>
 <body>
     <div>하노이탑</div>
-    <button id="button" onclick="dis()">초기화</button>
-    <div id="total">
-    <div class="box" id="box1" onclick="clickEvent1()">
-        <center>First</center>
-        <div id="hide">
-            <div class="ad">🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥</div>
-            <div class="ad">🟨🟨🟨🟨🟨🟨🟨🟨🟨</div>
-            <div class="ad">🟩🟩🟩🟩🟩🟩🟩</div>
-            <div class="ad">🟦🟦🟦🟦🟦</div>
-            <div class="ad">🟪🟪🟪</div>
-            <div class="ad">⬛</div>
+    <input id="restBtn" type="button" value="초기화" onclick="Init()">
+    <div class="Hanoitop">
+       
+        <div id="firstbox" onclick="ClickfirstBox()">
+        first 
+        <p id="first"></p>
+        </div> 
+        
+        <div id="secondbox" onclick="ClicksecondBox()">
+         second 
+        <p id="second"></p>
         </div>
+
+        <div id="thirdbox" onclick="ClickthirdBox()">
+         third 
+        <p id="third"></p>
+        </div>
+
+        <script src="Hanoi.js"> </script>
+
     </div>
-    <div class="box" id="box2" onclick="clickEvent2()"><center>Second</center></div>
-    <div class="box" id="box3" onclick="clickEvent3()"><center>Third</center></div>
+    </html>
+   
